@@ -21,7 +21,7 @@ log = "0.4"
 cfg-if = "1.0"
 bitflags = "2.2"
 static_assertions = "1.1.0"
-axconfig = { path = "../axconfig" }
+axconfig = { git = "ssh://git@github.com/shilei-massclouds/axconfig.git" }
 
 [target.'cfg(target_arch = "x86_64")'.dependencies]
 x86 = "0.52"
@@ -38,4 +38,4 @@ aarch64-cpu = "9.3"
 tock-registers = "0.8"
 
 [build-dependencies]
-axconfig = { path = "../axconfig" }
+axconfig = { git = "ssh://git@github.com/shilei-massclouds/axconfig.git" }
